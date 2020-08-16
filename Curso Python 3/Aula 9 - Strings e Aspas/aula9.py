@@ -1,1 +1,2 @@
 print('funciona')
+print('teste')
