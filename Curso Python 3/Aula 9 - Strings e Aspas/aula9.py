@@ -1,5 +1,7 @@
-print('funciona')
-print('teste')
-print('teste 2')
-print('teste git commit push e os krl')
-print('teste push')
+"""
+str - string
+"""
+
+print('alcuma coisa')
+print("aspas duplas")
+print(10)
