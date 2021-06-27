@@ -1,5 +1,6 @@
 from dados import produtos, pessoas, lista
 
+
 def aumenta_idade(p):
     p['nova_idade'] = round(p['idade'] * 1.2)
     return p

@@ -8,5 +8,6 @@ def saudacao(msg='Olá', nome='Usuário'):
 saudacao('Olá', 'Luiz Otávio')
 saudacao()
 saudacao(nome='Zezinho', msg='Oi')
+
 variavel = saudacao()
 print(variavel)

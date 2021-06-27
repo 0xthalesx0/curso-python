@@ -7,10 +7,8 @@ def filtra(produto):
     return True
 
 def filtra2(pessoa):
-    if pessoa['idade'] >= 18:
-        return True
-    else:
-        return False
+    return pessoa['idade'] >= 18
+
 # VERSÃO MAP
 # nova_lista = filter(lambda x: x > 5, lista)
 # print(list(nova_lista))
