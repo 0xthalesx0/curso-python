@@ -1,4 +1,7 @@
-from dados import produtos, pessoas, lista
+import sys
+
+sys.path.insert(0, '/Python 3 Course/Seção 3 - Python Intermediário (Programação Procedural)/Fontes')
+from dados import lista
 
 # Mesma coisa abaixo:
 nova_lista = map(lambda x: x * 2, lista)  # Pra cada elemento de lista

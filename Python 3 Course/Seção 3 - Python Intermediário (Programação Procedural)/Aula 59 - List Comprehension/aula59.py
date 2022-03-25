@@ -14,7 +14,7 @@ tupla = (
     ('chave3', 'valor3'),
 )
 
-ex5 = [(y, x) for x, y in tupla]
+ex5 = [(x, y) for x, y in tupla]
 
 l3 = list(range(100))
 

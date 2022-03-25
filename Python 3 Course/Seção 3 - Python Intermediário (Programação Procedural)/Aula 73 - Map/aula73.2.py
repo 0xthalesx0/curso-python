@@ -1,3 +1,6 @@
+import sys
+sys.path.insert(0, '/Python 3 Course/Seção 3 - Python Intermediário (Programação Procedural)/Fontes')
+
 from dados import produtos, pessoas, lista
 
 

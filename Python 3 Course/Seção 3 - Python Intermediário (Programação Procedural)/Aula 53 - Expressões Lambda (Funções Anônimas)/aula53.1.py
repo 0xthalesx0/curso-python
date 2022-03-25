@@ -12,7 +12,7 @@ def func(item):
 
 
 # print(sorted(lista, key=func))
-print(sorted(lista, key=lambda item: item[1]))  # Isso não edita a lista
+print(type(sorted(lista, key=lambda item: item[1])))  # Isso não edita a lista
 print(lista)
 
 # lista.sort(key=func)
